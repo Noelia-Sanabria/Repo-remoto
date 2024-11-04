@@ -91,19 +91,25 @@ transition: 2s;}
 color: black;
 border: 3px solid black;}
 
-@media (max-width: 425px) {
-.contenido-principal{ text-align: center;} 
-.imagen-principal{ display: none;}}
-
 @media (max-width:1024px){ 
 .wpp{ margin: 5%;
 padding: 5%;
 position: relative;
 bottom: 5%;
 right: 5%;
-background-color: green;} 
+background-color: green;}
 
-footer{ margin: 2%;
-padding: 2%;
-justify-content: center;}
+main{display: flex;
+text-align: center;
+font-size: x-small;}
+
+footer{ margin: 5%;
+padding: 5%;
+display: block;
+font-size: medium;}
 }
+
+@media (max-width: 425px) {
+    .contenido-principal{ text-align: center;
+    font-size: xx-small;} 
+    .imagen-principal{ display: none;}}
