@@ -4,7 +4,8 @@ padding: 0%;}
 body{background-image: url(../imagenes/Img-fondo.jpg)}
 
 .encabezado{background-color: black;
-display: flex;}
+display: flex;
+justify-content: center;}
    
 .logo{width: 15rem; 
 height: 15rem;
@@ -26,23 +27,26 @@ font-weight: bolder;}
 
 footer{display: flex;
 align-items: center;
+justify-content: left;
 color: orangered;
-background-color: black;}
+background-color: black;
+margin: 1.2rem;
+padding: 1.2rem;}
 
 .parrafo-pie{margin: 1.1rem;
 padding: 1.1rem;}    
 
-.wpp{width: 7rem;
-height: 7rem;
+.wpp{ width: 10%;
+height: 15%;
 margin: 1.2rem;
-padding: 1.2rem;}
-
-.web-wpp{position: fixed;
-right: 1.1rem;
-bottom: 1.1rem;}
+padding: 1.2rem;
+position: fixed;
+bottom: 5%;
+right: 5%;}
 
 .contenido-principal{color: orangered;
-text-align: center;}
+text-align: center;
+display: block;}
 
 .talentos{margin: 1.2rem;
 padding: 1.2rem;
@@ -88,13 +92,17 @@ color: black;
 border: 3px solid black;}
 
 @media (max-width: 425px) {
-.contenido-principal{ text-align: center; } 
+.contenido-principal{ text-align: center;} 
 .imagen-principal{ display: none;}}
 
 @media (max-width:1024px){ 
 .wpp{ margin: 5%;
 padding: 5%;
-background-color: antiquewhite;} 
+position: relative;
+bottom: 5%;
+right: 5%;
+background-color: green;} 
+
 footer{ margin: 2%;
 padding: 2%;
 justify-content: center;}
